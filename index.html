@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Cuda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -9,30 +12,45 @@
   </head>
       <body>
         <div class="containers">
-          <div class="container-1">
-          <br>
-            <div class="introduction">
-              <div class="navbar">
-              <img src="images/cuda.png" style="float: left;">
-                <ul>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">ABOUT</a></li>
-                  <li><a href="#">WORK</a></li>
-                  <li><a href="#">BLOG</a></li>
-                  <li><a href="#">CONTACT</a></li>
-                </ul>
-              </div>
-
-                <h1>Hi there! We are the new kids on the block <br> and we build awesome websites and mobile apps.
-                </h1>
-                <button>WORK WITH US!</button>
-              
-            </div>
+          <div class="row no-gutters container-1">
+            <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark row no-gutters container-1">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 header">
+                    <div class="row no-gutters">
+                    <div class="col-6 col-sm-6 col-md-6">
+                      <img src="images/cuda.png" >
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                          <i class="fa fa-bars" style="color: #fff;"></i>
+                      </button>
+                    </div>
+                    </div>
+                     
+                  </div>
+                  <div class="collapse navbar-collapse" id="navbarTop" introduction>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">TEAM</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <div id="home" class="row introduction">
+                  <div class="col-12">
+                    <h1>Hi there! We are the new kids on the block <br> and we build awesome websites and mobile apps.
+                  </h1>
+                  <button class="partnership">WORK WITH US!</button></div>
+                </div>
+                
           </div>
+          
 
-          <div class="container-2">
-          <br>
-            <div class="services">
+          <div id="services" class="row no-gutters container-2">
+            <div class="col-12">
+                <br><br>
               <div class="service-introduction">
                 <h2 style="color:#fff;">SERVICES WE PROVIDE</2>
                 <hr>
@@ -40,61 +58,63 @@
             to create awesome websites and applications.
             </p>
               </div>
-            
-              <div class="service">
-                <div class="service1">
-                  <img src="images/img1.png">
-                  <h3>BRANDING</h3>
-                  <p>Lorem ipsum dolor sit amet, 
-              consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                </div>
-
-                <div class="service-1">
-                  <img src="images/img2.png">
-                  <h3>DESIGN</h3>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
-                </div>
-
-                <div class="service-1">
-                  <img src="images/img3.png">
-                  <h3>DEVELOPMENT</h3>
-                  <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
-                </div>
-
-                <div class="service-1">
-                  <img src="images/img4.png">
-                  <h3>ROCKET SCIENCE</h3>
-                  <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
-                </div>
-              </div>
             </div>
+            
+              <div class="col-12">
+                <div class="row no-gutters">
+                  <div class="col-12 col-sm-6 col-md-3">
+                      <img src="images/img1.png">
+                      <h3>BRANDING</h3>
+                      <p>Lorem ipsum dolor sit amet, 
+                  consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                      <img src="images/img2.png">
+                      <h3>DESIGN</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                      <img src="images/img3.png">
+                      <h3>DEVELOPMENT</h3>
+                      <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-3">
+                      <img src="images/img4.png">
+                      <h3>ROCKET SCIENCE</h3>
+                      <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+                  </div>
+                </div>
+                <br><br>
+              </div>
           </div>
 
 
-          <div class="container-3">
-            <div class="teams">
-            <br>
-              <div class="team-introduct">
+          <div id="team" class="row no-gutters container-3">
+            <div class="col-12 teams">
+                <br><br>
+              <div class=" team-introduct">
                 <h2 style="color:#fff;">MEET OUR BEAUTIFUL TEAM</h3>
                 <hr style="background-color: #c8d9e5">
                 <p>We are a small team of designers and developers, who help brands with big ideas.</p>
               </div>
-              <div class="img">
-                <div class="team1">
+            </div>
+              <div class="col-12 img">
+                <div class="row no-gutters text-center">
+                <div class="col-12 col-sm-6 col-md-3 team1 ">
                   <div class="person1"></div>
                   <h3>ANNE HATHAWAY</h3>
                   <p style="color:#48c1e9;">CEO / Marketing Guru</p>
                   <p>Lorem ipsum dolor sit amet, 
               consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
               <!-- Add font awesome icons -->
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-envelope-o"></a>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-envelope-o"></a>
 
                 </div>
                 
-                <div class="team">
+                <div class="col-12 col-sm-6 col-md-3 team">
                   <div class="person1"></div>
                   <h3>Kate Upton</h3>
                   <p style="color:#48c1e9;">Creative Director</p>
@@ -106,7 +126,7 @@
 
                 </div>
 
-                <div class="team">
+                <div class="col-12 col-sm-6 col-md-3 team">
                   <div class="person1"></div>
                   <h3>Olivia Wilde</h3>
                   <p style="color:#48c1e9;">Lead Designer</p>
@@ -118,7 +138,7 @@
               <a href="#" class="fa fa-envelope-o"></a>
                 </div>
 
-                <div class="team">
+                <div class="col-12 col-sm-6 col-md-3 team">
                   <div class="person1"></div>
                   <h3>Ashley Greene</h3>
                   <p style="color:#48c1e9;">SEO / Developer</p>
@@ -129,69 +149,99 @@
               <a href="#" class="fa fa-linkedin"></a>
 
                 </div>
+                
               </div>
+              <br><br>
             </div>
           </div>
 
 
-          <div class="container-4">
-            <div class="skills">
-            <br>
-              <div class="skills-introduction">
+          <div id="skills" class="row no-gutters container-4">
+              <div class="col-12 skills-introduction">
+                  <br><br>
                 <h3>WE GOT SKILLS!</h3>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
             tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
-              <div class="charts">
-                <div class="chart" style="margin-left: 80px;">
+              <div class="col-12 charts">
+                <div class="row no-gutters">
+                <div class="col-12 col-sm-6 col-md-3 chart" >
                   <img src="images/chart1.png">
                   <h3>WE DESIGN</h3>
                 </div>
 
-                <div class="chart">
+                <div class="col-12 col-sm-6 col-md-3 chart">
                   <img src="images/chart2.png">
                   <h3>HTML / CSS</h3>
                 </div>
 
-                <div class="chart">
+                <div class=" col-12 col-sm-6 col-md-3 chart">
                <img src="images/chart3.png">
                   <h3>GRAPHIC DESIGN</h3>
                 </div>
 
-                <div class="chart">
+                <div class="col-12 col-sm-6 col-md-3 chart">
                   <img src="images/chart4.png">
                   <h3>UI / UX</h3>
                 </div>
               </div>
+              <br><br>
             </div>
           </div>
 
 
-          <div class="container-7">
-            <div class="contact">
-            <br>
-              <div class="contact-introduction" style="color;margin-top: 100px;">
-                <h3 style="color:#fff;">GET IN TOUCH</h3>
-                <hr>
-                <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+          <div id="contact" class="row no-gutters container-7">
+            <div class="col-12 contact">
+            <br><br>
+              <div class="row no-gutters contact-introduction" style="margin-top: 100px;">
+                <div class="col-12 col-sm-12">
+                    <h3 style="color:#fff;">GET IN TOUCH</h3>
+                    <hr>
+                    <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+                </div>
               </div>
-              <div class="bar">
-              <div class="bar-1">
-                <input type="text" name="" style="float: left;">
-                <input type="text" name="" style="float: right;">
+              <br><br>
+              <div class="row no-gutters bar">
+                <div class="col-12 col-sm-6 col-md-6 offset-m-3 offset-lg-3">
+                  <div class="row no-gutters">
+                    <div class="col-12 col-sm-6 col-md-6">
+                      <div class="row no-gutters bar-1">   
+                            <input type="text" width="95%">
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="row no-gutters bar-1">   
+                            <input type="text" width="95%">
+                      </div>
+                      </div>
+                    </div>
+                    <div class="row no-gutters">
+                      <div class="col-12 col-sm-12 col-md-12 text-center">
+                      <div class="bar-2">
+                          <textarea></textarea>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  
+                    
+                </div>
               </div>
-              <div class="bar-2">
-                <textarea></textarea>
-              </div>
-            </div>
-            <button  style="background-color: #30bae7; border-bottom: 4px solid #299ec5;">SEND MESSAGE</button>
+              <br><br>
+            <button  style="background-color: #30bae7; border-bottom: 4px solid #299ec5;" class="btn">SEND MESSAGE</button>
+            <br><br>
+            <br><br>
              </div>
              <div class="footer"></div>
           </div>
         </div>
         
-      
+<!-- Latest compiled and minified JavaScript -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
          </body>
        </html>
